@@ -5,10 +5,11 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    Animator kontrol;
     
     void Start()
     {
-        
+        GetComponent<Animator>();
     }
 
     
@@ -18,5 +19,7 @@ public class PlayerMovement : MonoBehaviour
         float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
 
         transform.Translate(xValue, 0, zValue);
+
+       
     }
 }
