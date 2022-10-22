@@ -29,11 +29,11 @@ public class TrashManager : MonoBehaviour
 
         if (playerInventory != null)
         {
-            playerInventory.PlasticCollected();
-            playerInventory.PaperCollected();
-            playerInventory.GlassCollected();
-            playerInventory.IronCollected();
-            playerInventory.AluminumCollected();
+            //playerInventory.PlasticCollected();
+            //playerInventory.PaperCollected();
+            //playerInventory.GlassCollected();
+            //playerInventory.IronCollected();
+            //playerInventory.AluminumCollected();
 
             gameObject.SetActive(false);
         }

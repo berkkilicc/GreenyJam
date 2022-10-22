@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - trash
+  - CinemachineTarget
+  - NextScene
+  - paper
+  - glass
+  - plastic
+  - iron
+  - aluminum
+  - door
+  - 1.level
   layers:
   - Default
   - TransparentFX

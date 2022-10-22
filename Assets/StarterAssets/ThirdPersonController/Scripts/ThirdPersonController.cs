@@ -80,7 +80,7 @@ namespace StarterAssets
         private float _cinemachineTargetPitch;
 
         // player
-        private float _speed;
+        [SerializeField] private float _speed;
         private float _animationBlend;
         private float _targetRotation = 0.0f;
         private float _rotationVelocity;
@@ -238,7 +238,7 @@ namespace StarterAssets
                     Time.deltaTime * SpeedChangeRate);
 
                 // round speed to 3 decimal places
-                _speed = Mathf.Round(_speed * 1000f) / 1000f;
+                _speed = Mathf.Round(_speed * 200f) / 200f;
             }
             else
             {
